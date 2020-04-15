@@ -1,0 +1,69 @@
+body {
+	font-family: Raleway, sans-serif;
+}
+
+.container {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 20px 20px;
+}
+
+.content {
+	width: 600px;
+}
+
+.name {
+	color: #4C4C4C;
+	margin-bottom: 20px;
+}
+.name-tag {
+	font-size: 62px
+}
+
+.name-ipa {
+	margin-left: 15px;
+
+	font-weight: bold;
+	font-style: italic;
+	font-size: 14px;
+}
+
+.description {
+	display: inline-block;
+	line-height: 2;
+	margin-bottom: 20px;
+}
+
+.more-links {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.link {
+	font-size: 13px;
+	/*margin-right: 40px;*/
+}
+
+.link > a {
+	color: #2A5DB0;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+.nia-link {
+	color: #DF471C;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+.ucb {
+	color: #003262;
+	font-weight: 600;
+}
+
+.go-bears {
+	color: #FDB515;
+}
