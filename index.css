@@ -36,6 +36,21 @@ body {
 	margin-bottom: 20px;
 }
 
+.nia-link {
+	color: #DF471C;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+.ucb {
+	color: #003262;
+	font-weight: 600;
+}
+
+.go-bears {
+	color: #FDB515;
+}
+
 .more-links {
 	display: flex;
 	flex-wrap: wrap;
@@ -51,19 +66,4 @@ body {
 	color: #2A5DB0;
 	text-decoration: none;
 	font-weight: 600;
-}
-
-.nia-link {
-	color: #DF471C;
-	text-decoration: none;
-	font-weight: 600;
-}
-
-.ucb {
-	color: #003262;
-	font-weight: 600;
-}
-
-.go-bears {
-	color: #FDB515;
 }
