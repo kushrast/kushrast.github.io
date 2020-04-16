@@ -7,9 +7,10 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin: 20px 20px;
+	margin: 0px 20px 0px 20px;
 }
 
+/* Index CSS */
 .content {
 	width: 600px;
 }
@@ -59,7 +60,6 @@ body {
 
 .link {
 	font-size: 13px;
-	/*margin-right: 40px;*/
 }
 
 .link > a {
@@ -67,3 +67,105 @@ body {
 	text-decoration: none;
 	font-weight: 600;
 }
+
+/* End Index */
+.projects {
+	align-items: flex-start;
+	margin-top:  100px;
+}
+
+/* Projects CSS */
+.content-projects {
+	width: 1000px;
+}
+
+.home {
+	color: #DF471C;
+	font-weight: 600;
+}
+
+.title {
+	display: flex;
+	font-size: 62px;
+	width: 100%;
+	justify-content: center;
+
+}
+
+.projects-box {
+	margin-top: 50px;
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.box {
+	display: inline-block;
+	border: 0px red solid;
+	min-width: 300px;
+	height: 300px;
+	flex: 1;
+	margin: 10px 0px 0px 10px;
+	border-radius: 3px;
+}
+
+.invisible {
+	background: none;
+}
+
+.box-content {
+	line-height: 1.7;
+	margin: 20px;
+}
+
+.icon-tray {
+	height: 70px;
+}
+
+.folder {
+	float: left;
+	height: 40px;
+}
+
+.open-link {
+	cursor: pointer;
+	float:right;
+	height: 20px;
+}
+
+.project-title {
+	font-weight: bold;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.project-description {
+	font-size: 15px;
+	height: 115px;
+}
+
+.skills-tray {
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.baby-blue {
+	background: #b6e1f6;
+	fill: #259DD5;
+	color: #259DD5;
+}
+
+.baby-blue:hover {
+	background: #AEDBF1;
+}
+
+.baby-blue a {
+	fill: #259DD5;
+}
+
+.baby-blue .open-link:hover {
+	fill:black;
+}
+
+/* End Projects */
